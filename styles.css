@@ -1,0 +1,80 @@
+.navbar-brand {
+    font-size: 4rem;
+    margin: 50px 0px 50px 60px;
+    
+}
+
+.navbar-nav {
+    margin: 40px;
+    font-size: 1.4rem;
+}
+
+.nav-item {
+    padding: 20px;
+}
+
+/* Overriding the Bootstrap "dark theme" nav link color */
+.navbar-dark .navbar-nav .nav-link {
+    color: #EFEFEF;
+}
+
+/* Setting the nav toggler border color and right margin */ 
+.custom-toggler.navbar-toggler { 
+    border:2px solid #EFEFEF;
+    margin-right: 10px;
+} 
+
+/* Setting the nav hamburger icon stroke to white using rgb values*/ 
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 239, 239, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+/* Change nav menu hover color to white */
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.header-bg {
+    background: #F76C6C;
+}
+
+main{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.about-section {
+    border: 2px solid pink;
+    width: 40%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .navbar-brand {
+      font-size: 2rem;
+    }
+  }
