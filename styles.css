@@ -1,10 +1,5 @@
 
 
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 section {
     margin-bottom: 150px;;
 }
@@ -74,12 +69,13 @@ a:hover {
     border-radius: 50%;
     background-color: #24305E;
     flex-basis: 200px;
-    background-image: url(../images/scott.jpg);
+    background-image: url(../images/scott.png);
 }
 
 .bio {
-    flex-shrink: 10;
+    flex-shrink: 2;
     max-width: 60%;
+
 }
 
 .subheading {
@@ -104,20 +100,29 @@ a:hover {
 }
 
 .work-tile-item {
-    width: 33.33%;
-    height: 400px;
+    flex: 1 0 auto;
     font-size: 1.8rem;
     color: #24305E;
     background-color: #A8D0E6;
     border-radius: 5px;
-    margin-bottom: 30px;
-    margin: 20px;
+    margin: 5px;
     background-image: url(../images/work-tile.png);
-    flex-basis: 400px;
+  
+}
+
+.work-tile-item:before {
+    content:'';
+    padding-top:100%;
 }
 
 .work-tile-item a {
     color:#24305E;
+}
+
+.spotlight:hover,
+.work-tile-item:hover
+    {
+    filter: brightness(105%);
 }
 
 .contact-bubble {
@@ -125,25 +130,26 @@ a:hover {
     background-color: #24305E;
     width: 200px;
     height: 200px;
+    font-size: 1.3rem;
 }
 
-.spotlight:hover,
-.work-tile-item:hover,
 .contact-bubble:hover {
-    filter: brightness(105%);
+    background-color: #F76C6C;
 }
 
 footer {
     text-align: center;
-    background-color: #A8D0E6;
+    background-color: rgb(168, 208, 230);
     color: #24305E;
     height: 80px;
 }
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
-    header {
-      
+    .about-section,
+    .spotlight,
+    .work-tile-group {
+        width: 100%;
     }
   }
   /* Large smartphones - navbar changes color */
@@ -177,6 +183,15 @@ footer {
 
     .contact-bubble {
         margin: 25px;
+    }
+
+    .navbar-nav {
+        margin: 10px;
+        font-size: 1.4rem;
+    }
+
+    .navbar-brand {
+        margin: 10px;
     }
 
   }
