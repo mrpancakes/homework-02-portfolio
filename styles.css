@@ -70,6 +70,7 @@ a:hover {
 .about-photo {
     width: 200px;
     height: 200px;
+    margin: 20px 80px 30px 0;
     border-radius: 50%;
     background-color: #24305E;
     flex-basis: 200px;
@@ -77,7 +78,6 @@ a:hover {
 }
 
 .bio {
-    margin-left: 80px;
     flex-shrink: 10;
     max-width: 60%;
 }
@@ -93,12 +93,14 @@ a:hover {
     height: 300px;
     background-image: url(../images/swirl_pattern.png);
     border-radius: 5px;
+    text-align: center;
 }
 
 .work-tile-group {
     width: 80%;
     margin-top: 65px;
     margin-bottom: 30px;
+    margin-left: auto;
 }
 
 .work-tile-item {
@@ -118,12 +120,25 @@ a:hover {
     color:#24305E;
 }
 
-.spotlight:hover, .work-tile-item:hover {
-    filter: brightness(85%);
+.contact-bubble {
+    border-radius: 50%;
+    background-color: #24305E;
+    width: 200px;
+    height: 200px;
 }
 
+.spotlight:hover,
+.work-tile-item:hover,
+.contact-bubble:hover {
+    filter: brightness(105%);
+}
 
-
+footer {
+    text-align: center;
+    background-color: #A8D0E6;
+    color: #24305E;
+    height: 80px;
+}
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
@@ -147,6 +162,9 @@ a:hover {
     .work-tile-group {
         width: 100%;
     }
+    .bio {
+        max-width: none;
+    }
 
     .work-tile-group {
         margin-top: 20px;
@@ -155,6 +173,10 @@ a:hover {
     .work-tile-item {
         margin: 20px auto;
         height: 300px;
+    }
+
+    .contact-bubble {
+        margin: 25px;
     }
 
   }
