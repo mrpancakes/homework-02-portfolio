@@ -1,12 +1,10 @@
-
-
-section {
-    margin-bottom: 150px;;
-}
-
 main{
     width: 80%;
     margin: 40px auto;
+}
+
+section {
+    margin-bottom: 150px;;
 }
 
 a {
@@ -60,6 +58,7 @@ a:hover {
 
 .about-section {
     width: 80%;
+    font-size: 1.2rem;
 }
 
 .about-photo {
@@ -69,11 +68,12 @@ a:hover {
     border-radius: 50%;
     background-color: #24305E;
     flex-basis: 200px;
-    background-image: url(../images/scott.png);
+    background-image: url(../images/profile-pic.png);
+    background-size: 200px;;
+    background-repeat: no-repeat;
 }
 
 .bio {
-    flex-shrink: 2;
     max-width: 60%;
 
 }
@@ -131,6 +131,7 @@ a:hover {
     width: 200px;
     height: 200px;
     font-size: 1.3rem;
+    flex-shrink: 10;
 }
 
 .contact-bubble:hover {
@@ -154,9 +155,14 @@ footer {
   }
   /* Large smartphones - navbar changes color */
   @media screen and (max-width: 768px) {
-    nav {
-      
+    section {
+        margin-bottom: 30px;
     }
+
+    .bio {
+        max-width: none;
+    }
+    
   }
   /* Small smartphones - image placeholders change color */
   @media screen and (max-width: 576px) {
@@ -168,8 +174,9 @@ footer {
     .work-tile-group {
         width: 100%;
     }
-    .bio {
-        max-width: none;
+
+    .about-photo {
+        justify-content: center !important;
     }
 
     .work-tile-group {
