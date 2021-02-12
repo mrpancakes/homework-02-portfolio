@@ -13,12 +13,14 @@ a {
 
 a:hover {
     color: white;
+    text-decoration: none;
+    font-weight: 500;
 }
 
+/* This is the "Hey Scott" header in the nav */
 .navbar-brand {
     font-size: 5rem;
     margin: 50px 0px 50px 60px;
-    
 }
 
 .navbar-nav {
@@ -35,19 +37,19 @@ a:hover {
     color: #EFEFEF;
 }
 
-/* Setting the nav toggler border color and right margin */ 
+/* Setting the nav toggler border color and right margin (replacing default Bootstrap color) */ 
 .custom-toggler.navbar-toggler { 
     border:2px solid #EFEFEF;
     margin-right: 10px;
 } 
 
-/* Setting the nav hamburger icon stroke to white using rgb values*/ 
+/* Setting the nav hamburger icon stroke to white using rgb values (replacing default Bootstrap color)*/ 
 .custom-toggler .navbar-toggler-icon { 
     background-image: url( 
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 239, 239, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
 } 
 
-/* Resetting Bootstrap nav menu hover color to white */
+/* Setting nav menu item hover color to white (replacing default Bootstrap color) */
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: white;
 }
@@ -89,10 +91,12 @@ a:hover {
     max-width: 60%;
 }
 
+/* Setting the font size for the About, Work, and Contact subheaders */
 .subheading {
     font-size: 3rem;
 }
 
+/* The top Work project block */
 .spotlight {
     font-size: 2rem;
     color: #EFEFEF;
@@ -103,6 +107,7 @@ a:hover {
     text-align: center;
 }
 
+/* Grouping the sub-proojects under Work */
 .work-tile-group {
     width: 80%;
     margin-top: 65px;
@@ -121,6 +126,7 @@ a:hover {
   
 }
 
+/* Makes the 2 sub-project work tiles an even square shape */
 .work-tile-item:before {
     content:'';
     padding-top:100%;
