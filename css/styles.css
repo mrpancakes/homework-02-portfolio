@@ -58,6 +58,11 @@ a:hover {
     background: #F76C6C;
 }
 
+/* Setting the font size for the About, Work, and Contact subheaders */
+.subheading {
+    font-size: 3rem;
+}
+
 .about-section {
     width: 80%;
     font-size: 1.2rem;
@@ -91,11 +96,6 @@ a:hover {
     max-width: 60%;
 }
 
-/* Setting the font size for the About, Work, and Contact subheaders */
-.subheading {
-    font-size: 3rem;
-}
-
 /* The top Work project block */
 .spotlight {
     font-size: 2rem;
@@ -105,6 +105,11 @@ a:hover {
     background-image: url(../images/swirl_pattern.png);
     border-radius: 5px;
     text-align: center;
+}
+
+.spotlight:hover
+    {
+    filter: brightness(105%);
 }
 
 /* Grouping the sub-proojects under Work */
@@ -126,20 +131,15 @@ a:hover {
   
 }
 
-/* Makes the 2 sub-project work tiles an even square shape */
+/* Makes the 3 sub-project work tiles an even square shape */
 .work-tile-item:before {
     content:'';
     padding-top:100%;
 }
 
-.work-tile-item a {
+.work-tile-item a,
+.work-tile-item:hover {
     color:#24305E;
-}
-
-.spotlight:hover,
-.work-tile-item:hover
-    {
-    filter: brightness(105%);
 }
 
 .contact-bubble {
@@ -162,20 +162,21 @@ footer {
     height: 80px;
 }
 
-/* Tablets - header changes color */
+/* Tablets */
 @media screen and (max-width: 992px) {
     .about-section,
     .spotlight,
     .work-tile-group {
         width: 100%;
     }
+   
   }
-  /* Large smartphones - navbar changes color */
+  /* Tablets & large smart phones */
   @media screen and (max-width: 768px) {
     section {
         margin-bottom: 30px;
     }
-    
+
     .about-photo {
         margin: 20px auto;
     }
@@ -185,15 +186,16 @@ footer {
     }
     
   }
-  /* Small smartphones - image placeholders change color */
+  /* Small smartphones */
   @media screen and (max-width: 576px) {
     .navbar-brand {
       font-size: 2rem;
+      margin: 10px;
     }
-    .about-section,
-    .spotlight,
-    .work-tile-group {
-        width: 100%;
+
+    .navbar-nav {
+        margin: 10px;
+        font-size: 1.4rem;
     }
 
     .work-tile-group {
@@ -202,20 +204,10 @@ footer {
 
     .work-tile-item {
         margin: 20px auto;
-        height: 300px;
     }
 
     .contact-bubble {
         margin: 25px;
-    }
-
-    .navbar-nav {
-        margin: 10px;
-        font-size: 1.4rem;
-    }
-
-    .navbar-brand {
-        margin: 10px;
     }
 
   }
