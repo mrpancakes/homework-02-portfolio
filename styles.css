@@ -69,13 +69,24 @@ a:hover {
     background-color: #24305E;
     flex-basis: 200px;
     background-image: url(../images/profile-pic.png);
-    background-size: 200px;;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.about-photo:hover {
+    width: 200px;
+    height: 200px;
+    margin: 20px 80px 30px 0;
+    border-radius: 50%;
+    background-color: #24305E;
+    flex-basis: 200px;
+    background-image: url(../images/sunglasses.png);
+    background-size: 200px;
     background-repeat: no-repeat;
 }
 
 .bio {
     max-width: 60%;
-
 }
 
 .subheading {
@@ -158,6 +169,10 @@ footer {
     section {
         margin-bottom: 30px;
     }
+    
+    .about-photo {
+        margin: 20px auto;
+    }
 
     .bio {
         max-width: none;
@@ -173,10 +188,6 @@ footer {
     .spotlight,
     .work-tile-group {
         width: 100%;
-    }
-
-    .about-photo {
-        justify-content: center !important;
     }
 
     .work-tile-group {
