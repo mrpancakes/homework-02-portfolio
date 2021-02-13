@@ -200,6 +200,10 @@ footer {
         font-size: 1.4rem;
     }
 
+    .spotlight {
+        padding: 15px;
+    }
+
     .work-tile-group {
         margin-top: 20px;
     }
