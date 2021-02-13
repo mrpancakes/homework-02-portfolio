@@ -19,5 +19,7 @@ Below is an overview of my work on this application:
 
 You can view the live application [here](https://mrpancakes.github.io/homework-02-portfolio/), along with the GitHub repo [here](https://github.com/mrpancakes/homework-02-portfolio).
 
+![Portfolio Preview](./images/page-preview.png)
+
 
 
