@@ -10,7 +10,7 @@ Below is an overview of my work on this application:
 * Used Boostrap to create my header navigation bar, which collapses into a toggler menu in ipad/mobile view.
 * When you click the nav menu items, it scrolls you down to the corresponding section.
 * For the Work section, I used hyperlinked background images with overlaying text. The top project in this section takes you to the Horiseon application from Homework 1.
-* Added a hover effect to my profile picture 😎.
+* Added a hover effect to my About picture 😎.
 * Added hover effects to the Work and Contact elements to brighten or change color.
 * Used media queries to alter various elements for a better mobile experience.
 * Added meaningful comments to the HTML and CSS files for clarity.
