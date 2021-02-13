@@ -112,7 +112,7 @@ a:hover {
     font-weight: 500;
 }
 
-/* Grouping the sub-proojects under Work */
+/* Grouping the sub-projects under Work */
 .work-tile-group {
     width: 80%;
     margin-top: 65px;
@@ -131,7 +131,7 @@ a:hover {
   
 }
 
-/* Makes the each of the 3 sub-project Work tiles an even square shape */
+/* Makes each of the 3 sub-Work tiles an even square shape */
 .work-tile-item:before {
     content:'';
     padding-top:100%;
@@ -164,7 +164,7 @@ footer {
     height: 80px;
 }
 
-/* Tablets */
+/* Large tablets/screens */
 @media screen and (max-width: 992px) {
     .about-section,
     .spotlight,
