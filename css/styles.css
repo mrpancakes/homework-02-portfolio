@@ -4,7 +4,7 @@ main{
 }
 
 section {
-    margin-bottom: 150px;;
+    margin-bottom: 150px;
 }
 
 a {
@@ -16,7 +16,7 @@ a:hover {
     text-decoration: none;
 }
 
-/* This is the "Hey Scott" header in the nav */
+/* This is the "Hey I'm Scott" header in the nav */
 .navbar-brand {
     font-size: 5rem;
     margin: 50px 0px 50px 60px;
@@ -56,6 +56,7 @@ a:hover {
 .header-bg {
     background: #F76C6C;
 }
+
 
 /* Setting the font size for the About, Work, and Contact subheaders */
 .subheading {

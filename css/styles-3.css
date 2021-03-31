@@ -1,0 +1,154 @@
+body {
+    width: 80%;
+    margin: auto;
+    background-color: #242434;
+    color: #CDCDCD;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 80%;
+    margin: 40px auto;
+    font-size: 2rem;
+}
+
+h1 {
+    color: #D6277B;
+    opacity: 0.85;
+    font-size: 5.5rem;
+    font-family: 'Source Serif Pro', serif;
+  }
+
+nav {
+  background-color: #242434;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  
+}
+
+.nav-item {
+    margin: 20px 20px 40px 40px;
+}
+
+.home {
+    height: 90vh;
+    /* background-color: lightgray; */
+    margin-top: -100px;
+    position: relative;
+
+}
+
+/* .intro {
+    margin-right: 20px;
+} */
+
+.about {
+    height: 100vh;
+    /* background-color: lightskyblue; */
+}
+
+.bounce {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-8px);
+    }
+  }
+
+  
+
+#description {
+    font-size: 2.35rem;
+}
+
+.arrow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    width: 100px;
+}
+
+.about-photo {
+    min-width: 200px;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #3dbfcb;
+    flex-basis: 200px;
+    background-image: url(../images/profile-pic.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.about-photo:hover {
+    background-image: url(../images/sunglasses.png);
+}
+
+
+
+/* Large tablets/screens */
+@media screen and (max-width: 992px) {
+    
+  }
+
+
+  /* Tablets & large smart phones */
+  @media screen and (max-width: 768px) {
+        
+    .navbar-nav {
+        background-color: #363648;
+        margin-top: 5px;
+    }
+
+    .nav-item {
+        margin: 10px;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1 {
+        font-size: 4rem;
+    }
+
+    #description {
+        font-size: 1.7rem;
+    }
+
+    .about-photo {
+        margin-top: 30px;
+    }
+    
+  }
+
+
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+    
+    h1 {
+        font-size: 2rem;
+        padding-bottom: -200px;
+    }
+
+    #description {
+        font-size: 1.5rem;
+    }
+
+  }
