@@ -1,5 +1,5 @@
 body {
-    width: 80%;
+    width: 70%;
     margin: auto;
     background-color: #242434;
     color: #CDCDCD;
@@ -7,15 +7,14 @@ body {
 }
 
 main {
-    width: 80%;
     margin: 40px auto;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 h1 {
     color: #D6277B;
     opacity: 0.85;
-    font-size: 5.5rem;
+    font-size: 4rem;
     font-family: 'Source Serif Pro', serif;
   }
 
@@ -31,21 +30,35 @@ nav {
     margin: 20px 20px 40px 40px;
 }
 
+
 .home {
     height: 90vh;
     /* background-color: lightgray; */
     margin-top: -100px;
     position: relative;
-
+    max-width: 1000px;
 }
 
-/* .intro {
-    margin-right: 20px;
-} */
 
-.about {
-    height: 100vh;
+.page {
+    margin-top: 150px;
     /* background-color: lightskyblue; */
+}
+
+.about-photo {
+    min-width: 200px;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #3dbfcb;
+    flex-basis: 200px;
+    background-image: url(../images/profile-pic.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.about-photo:hover {
+    background-image: url(../images/sunglasses.png);
 }
 
 .bounce {
@@ -66,11 +79,6 @@ nav {
     }
   }
 
-  
-
-#description {
-    font-size: 2.35rem;
-}
 
 .arrow {
     position: absolute;
@@ -81,22 +89,18 @@ nav {
     width: 100px;
 }
 
-.about-photo {
-    min-width: 200px;
-    max-width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #3dbfcb;
-    flex-basis: 200px;
-    background-image: url(../images/profile-pic.png);
-    background-size: 200px;
-    background-repeat: no-repeat;
+.card {
+    background-color: rgb(91, 91, 91);
+    max-width: 25rem;
 }
 
-.about-photo:hover {
-    background-image: url(../images/sunglasses.png);
+.card-text {
+    font-size: 1.1rem;
 }
 
+.btn {
+    background-color: rgb(223, 223, 223);;
+}
 
 
 /* Large tablets/screens */
@@ -142,6 +146,10 @@ nav {
   /* Small smartphones */
   @media screen and (max-width: 576px) {
     
+    body {
+        width: 90%;
+    }
+
     h1 {
         font-size: 2rem;
         padding-bottom: -200px;
@@ -149,6 +157,15 @@ nav {
 
     #description {
         font-size: 1.5rem;
+    }
+
+    #about {
+        font-size: 1rem;
+    }
+
+    .card {
+        background-color: rgb(91, 91, 91);
+        width: 90%;
     }
 
   }
