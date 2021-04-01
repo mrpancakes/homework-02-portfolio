@@ -1,77 +1,64 @@
-main{
-    width: 80%;
+body {
+   
+    margin: auto;
+    background-color: #242434;
+    color: #CDCDCD;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 70%;
     margin: 40px auto;
+    font-size: 1.7rem;
 }
 
-section {
-    margin-bottom: 150px;
+h1 {
+    color: #D6277B;
+    opacity: 0.85;
+    font-size: 4rem;
+    font-family: 'Source Serif Pro', serif;
+  }
+
+nav {
+  background-color: #242434;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  
 }
 
-a {
-    color: #EFEFEF;
-}
-
-a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-/* This is the "Hey I'm Scott" header in the nav */
-.navbar-brand {
-    font-size: 5rem;
-    margin: 50px 0px 50px 60px;
-}
-
-.navbar-nav {
-    margin: 40px;
-    font-size: 1.4rem;
+footer {
+    
+    margin-top: 150px;
+    background-color: rgb(199, 75, 135);
+    color: #242434;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-item {
-    padding: 20px;
-}
-
-/* Overriding the Bootstrap "dark theme" nav link color */
-.navbar-dark .navbar-nav .nav-link {
-    color: #EFEFEF;
-}
-
-/* Setting the nav toggler border color and right margin (replacing default Bootstrap color) */ 
-.custom-toggler.navbar-toggler { 
-    border:2px solid #EFEFEF;
-    margin-right: 10px;
-} 
-
-/* Setting the nav hamburger icon stroke to white using rgb values (replacing default Bootstrap color)*/ 
-.custom-toggler .navbar-toggler-icon { 
-    background-image: url( 
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 239, 239, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
-} 
-
-/* Setting nav menu item hover color to white (replacing default Bootstrap color) */
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: white;
-}
-
-.header-bg {
-    background: #F76C6C;
+    margin: 20px 20px 40px 40px;
 }
 
 
-/* Setting the font size for the About, Work, and Contact subheaders */
-.subheading {
-    font-size: 3rem;
+.home {
+    height: 90vh;
+    margin-top: -100px;
+    position: relative;
+    max-width: 1000px;
 }
 
-.about-section {
-    width: 80%;
-    font-size: 1.2rem;
+
+.page {
+    margin-top: 150px;
 }
 
 .about-photo {
-    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
     height: 200px;
-    margin: 20px 80px 30px 0;
     border-radius: 50%;
     background-color: #3dbfcb;
     flex-basis: 200px;
@@ -81,140 +68,130 @@ a:hover {
 }
 
 .about-photo:hover {
-    width: 200px;
-    height: 200px;
-    margin: 20px 80px 30px 0;
-    border-radius: 50%;
-    background-color: #3dbfcb;
-    flex-basis: 200px;
     background-image: url(../images/sunglasses.png);
-    background-size: 200px;
-    background-repeat: no-repeat;
 }
 
-.bio {
-    max-width: 60%;
-}
-
-/* The top Work project block */
-.spotlight {
-    font-size: 2rem;
-    color: #EFEFEF;
-    width: 80%;
-    height: 300px;
-    background-image: url(../images/swirl_pattern.png);
-    border-radius: 5px;
-    text-align: center;
-}
-
-.spotlight:hover
-    {
-    filter: brightness(105%);
-    font-weight: 500;
-}
-
-/* Grouping the sub-projects under Work */
-.work-tile-group {
-    width: 80%;
-    margin-top: 65px;
-    margin-bottom: 30px;
-    margin-left: auto;
-}
-
-.work-tile-item {
-    flex: 1 0 auto;
-    font-size: 1.8rem;
-    color: #24305E;
-    background-color: #A8D0E6;
-    border-radius: 5px;
-    margin: 5px;
-    background-image: url(../images/work-tile.png);
+.bounce {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+  }
   
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-8px);
+    }
+  }
+
+
+.arrow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    width: 100px;
 }
 
-/* Makes each of the 3 sub-Work tiles an even square shape */
-.work-tile-item:before {
-    content:'';
-    padding-top:100%;
+.card {
+    background-color: rgb(91, 91, 91);
+    max-width: 25rem;
 }
 
-.work-tile-item a,
-.work-tile-item:hover {
-    filter: brightness(105%);
-    color:#24305E;
-    text-shadow: -0.25px 0 #24305E, 0 0.25px #24305E, 0.25px 0 #24305E, 0 -0.25px #24305E;
+.card-text {
+    font-size: 1.1rem;
 }
 
-.contact-bubble {
-    border-radius: 50%;
-    background-color: #24305E;
-    width: 200px;
-    height: 200px;
-    font-size: 1.3rem;
-    flex-shrink: 10;
+.btn {
+    background-color: rgb(223, 223, 223);;
 }
 
-.contact-bubble:hover {
-    background-color: #F76C6C;
+.icon {
+    max-width: 100px;
 }
 
-footer {
-    text-align: center;
-    background-color: rgb(168, 208, 230);
-    color: #24305E;
-    height: 80px;
-}
 
 /* Large tablets/screens */
 @media screen and (max-width: 992px) {
-    .about-section,
-    .spotlight,
-    .work-tile-group {
-        width: 100%;
-    }
-   
+    
   }
+
+
   /* Tablets & large smart phones */
   @media screen and (max-width: 768px) {
-    section {
-        margin-bottom: 30px;
+        
+    .navbar-nav {
+        background-color: #363648;
+        margin-top: 5px;
+    }
+
+    .nav-item {
+        margin: 10px;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1 {
+        font-size: 4rem;
+    }
+
+    #description {
+        font-size: 1.7rem;
     }
 
     .about-photo {
-        margin: 20px auto;
+        margin-top: 30px;
     }
 
-    .bio {
-        max-width: none;
+    .page {
+        margin-top: 50px;
+    }
+
+    #about {
+        margin-top: 100px;
     }
     
   }
+
+
   /* Small smartphones */
   @media screen and (max-width: 576px) {
-    .navbar-brand {
-      font-size: 2rem;
-      margin: 10px;
+    
+    main {
+        width: 90%;
     }
 
-    .navbar-nav {
-        margin: 10px;
-        font-size: 1.4rem;
+    h1 {
+        font-size: 2rem;
+        padding-bottom: -200px;
     }
 
-    .spotlight {
-        padding: 15px;
+    #description {
+        font-size: 1.5rem;
     }
 
-    .work-tile-group {
-        margin-top: 20px;
+    #about {
+        font-size: 1rem;
     }
 
-    .work-tile-item {
-        margin: 20px auto;
+    .card {
+        background-color: rgb(91, 91, 91);
+        width: 90%;
     }
 
-    .contact-bubble {
-        margin: 25px;
+    #contact p {
+        font-size: 1.2rem;
     }
 
   }
