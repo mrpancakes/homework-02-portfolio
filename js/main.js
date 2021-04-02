@@ -9,7 +9,7 @@ $(document).ready(function () {
 
       $("#job-title").attr("class", "text-center");
 
-    }, 6000)
+    }, 5500)
   }
 
   typewriter();

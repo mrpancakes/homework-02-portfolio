@@ -56,7 +56,6 @@ footer {
     max-width: 1000px;
 }
 
-
 .page {
     margin-top: 150px;
 }
@@ -99,7 +98,6 @@ footer {
       transform: translateY(-8px);
     }
   }
-
 
 .arrow {
     position: absolute;
@@ -174,7 +172,7 @@ footer {
 
 
   /* Tablets & large smart phones */
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
         
     .navbar-nav {
         background-color: #363648;
