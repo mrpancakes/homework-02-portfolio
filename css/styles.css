@@ -1,9 +1,10 @@
 body {
-   
     margin: auto;
     background-color: #242434;
     color: #CDCDCD;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+    background-image: url(../images/pattern.png);
 }
 
 main {
@@ -20,10 +21,11 @@ h1 {
   }
 
 nav {
-  background-color: #242434;
+  background-color: #252535;
   position: sticky;
   top: 0;
   width: 100%;
+  height: 90px;
   
 }
 
@@ -39,6 +41,11 @@ footer {
 
 .nav-item {
     margin: 20px 20px 40px 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #D6277B;
+    opacity: 0.85;
 }
 
 
