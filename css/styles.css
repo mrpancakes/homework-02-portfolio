@@ -138,6 +138,11 @@ footer {
     margin: 10px;
 }
 
+.icon:hover {
+    -ms-transform: rotate(10deg); /* IE 9 */
+    transform: rotate(10deg);
+}
+
 
 /* Large tablets/screens */
 @media screen and (max-width: 992px) {
