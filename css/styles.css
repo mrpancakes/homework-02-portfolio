@@ -5,6 +5,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     position: relative;
     background-image: url(../images/pattern.png);
+    
 }
 
 main {
@@ -75,6 +76,7 @@ footer {
 
 .about-photo:hover {
     background-image: url(../images/sunglasses.png);
+    cursor: url(../images/rock-on.cur), auto;
 }
 
 .bounce {
