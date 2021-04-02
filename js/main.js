@@ -7,9 +7,14 @@ $(document).ready(function () {
   function typewriter() {
     setTimeout(function () {
 
-      $("#job-title").attr("class", "text-center five-px-padding");
+      $("#name").attr("class", "");
+      $("#job-title").attr("class", "typewriter");
 
-    }, 5500)
+      setTimeout(function(){
+        $("#job-title").attr("class", "text-center five-px-padding");
+      }, 5500)
+
+    }, 1000)
   }
 
   typewriter();
