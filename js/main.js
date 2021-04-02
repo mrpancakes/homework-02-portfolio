@@ -7,7 +7,7 @@ $(document).ready(function () {
   function typewriter() {
     setTimeout(function () {
 
-      $("#job-title").attr("class", "text-center");
+      $("#job-title").attr("class", "text-center five-px-padding");
 
     }, 5500)
   }

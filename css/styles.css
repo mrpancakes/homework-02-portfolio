@@ -152,6 +152,10 @@ footer {
     blink-caret .75s step-end infinite;
 }
 
+.five-px-padding {
+    padding-right: 5px;
+}
+
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
@@ -172,7 +176,7 @@ footer {
 
 
   /* Tablets & large smart phones */
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
         
     .navbar-nav {
         background-color: #363648;
