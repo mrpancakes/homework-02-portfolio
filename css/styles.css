@@ -62,7 +62,7 @@ footer {
 }
 
 #job-title {
-    font-size: 1.99rem;;
+    font-size: 1.99rem;
 }
 
 .about-photo {
@@ -168,7 +168,7 @@ footer {
         font-size: 4rem;
     }
 
-    #description {
+    #job-title {
         font-size: 1.7rem;
     }
 
@@ -195,7 +195,7 @@ footer {
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
         padding-bottom: -200px;
     }
 
@@ -203,7 +203,7 @@ footer {
         font-size: 0.8rem;
     }
 
-    #description {
+    #jon-title {
         font-size: 1.5rem;
     }
 
