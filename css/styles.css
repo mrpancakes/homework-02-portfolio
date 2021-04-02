@@ -221,6 +221,15 @@ footer {
     #about {
         margin-top: 100px;
     }
+
+    .margin-bottom {
+        margin-bottom: 48px;
+    }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 70% }
+      }
     
   }
 
@@ -241,12 +250,8 @@ footer {
         font-size: 0.8rem;
     }
 
-    .typewriter {
-        display: none;
-    }
-  
-    #job-title {
-        font-size: 1.5rem;
+      #job-title {
+        font-size: 1rem;
     }
 
     #about {
@@ -266,5 +271,14 @@ footer {
         max-width: 100px;
         margin: 5px;
     }
+
+    .margin-bottom {
+        margin-bottom: 33px;
+    }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 68% }
+      }
 
   }
