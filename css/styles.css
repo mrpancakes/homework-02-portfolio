@@ -56,12 +56,12 @@ footer {
     max-width: 1000px;
 }
 
-.page {
-    margin-top: 150px;
-}
-
 #job-title {
     font-size: 1.99rem;
+}
+
+.page {
+    margin-top: 150px;
 }
 
 .about-photo {
@@ -81,6 +81,7 @@ footer {
     cursor: url(../images/rock-on.cur), auto;
 }
 
+/* Homepage arrow bouncing effect */
 .bounce {
     -moz-animation: bounce 3s infinite;
     -webkit-animation: bounce 3s infinite;
@@ -132,7 +133,7 @@ footer {
 }
 
 .icon {
-    max-width: 100px;
+    width: 115px;
     margin: 10px;
 }
 
@@ -170,21 +171,15 @@ footer {
     to { width: 75% }
   }
   
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
+/* The typewriter cursor effect */
+@keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: orange; }
   }
 
 
-/* Large tablets/screens */
-@media screen and (max-width: 992px) {
-    
-  }
-
-
-  /* Tablets & large smart phones */
-  @media screen and (max-width: 768px) {
+/* Tablets & large smart phones */
+@media screen and (max-width: 768px) {
         
     .navbar-nav {
         background-color: #363648;
@@ -250,8 +245,8 @@ footer {
         font-size: 0.8rem;
     }
 
-      #job-title {
-        font-size: 1rem;
+    #job-title {
+        font-size: 1.4rem;
     }
 
     #about {
@@ -273,12 +268,12 @@ footer {
     }
 
     .margin-bottom {
-        margin-bottom: 33px;
+        margin-bottom: 40px;
     }
 
     @keyframes typing {
         from { width: 0 }
-        to { width: 68% }
+        to { width: 70% }
       }
 
   }
