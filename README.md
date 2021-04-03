@@ -18,7 +18,7 @@ Below is an overview of my work on this application:
 
 ## Live Application
 
-You can view the live application [here](https://mrpancakes.github.io/xportfolio/), along with the GitHub repo [here](https://github.com/mrpancakes/portfolio).
+You can view the live application [here](https://mrpancakes.github.io/portfolio/), along with the GitHub repo [here](https://github.com/mrpancakes/portfolio).
 
 ![Portfolio Preview](./images/page-preview.png)
 
