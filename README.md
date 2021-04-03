@@ -1,23 +1,24 @@
 # Personal Portfolio
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ## Description
 
-The purpose of this website is to house an online personal portfolio. It contains About, Work, and Contact sections which highlight who I am and what types of applications I've created. I used Bootstrap Flexbox classes to layout the page for a responsive design.
+The purpose of this website is to house an online personal portfolio. It contains About, Work, and Contact sections which highlight who I am and what types of applications I've created.
 
 Below is an overview of my work on this application:
 
-* Used Bootstrap's flex classes within the html elements for overall layout and responsiveness.
+* Used Bootstrap Grid flex for overall layout and responsiveness.
 * Used Boostrap to create my header navigation bar, which collapses into a toggler menu in ipad/mobile view.
+* Added a background image to give the page some texture.
 * When you click the nav menu items, it scrolls you down to the corresponding section.
-* For the Work section, I used hyperlinked background images with overlaying text. The top project in this section takes you to the Horiseon application from Homework 1.
-* Added a hover effect to my About picture 😎
-* Added hover effects to the Work and Contact elements to brighten or change color.
+* The homepage features a typerwriter effect upon loading.
+* Included a hover effect to my About picture 😎
 * Used media queries to alter various elements for a better mobile experience.
-* Added meaningful comments to the HTML and CSS files for clarity.
 
 ## Live Application
 
-You can view the live application [here](https://mrpancakes.github.io/homework-02-portfolio/), along with the GitHub repo [here](https://github.com/mrpancakes/homework-02-portfolio).
+You can view the live application [here](https://mrpancakes.github.io/xportfolio/), along with the GitHub repo [here](https://github.com/mrpancakes/portfolio).
 
 ![Portfolio Preview](./images/page-preview.png)
 
