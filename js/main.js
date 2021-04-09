@@ -18,5 +18,6 @@ $(document).ready(function () {
   }
 
   typewriter();
+  console.log('Whoa, checking out my console?! At least buy me dinner first.');
 
 })
