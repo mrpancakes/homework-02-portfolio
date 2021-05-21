@@ -56,6 +56,22 @@ footer {
     max-width: 1000px;
 }
 
+#tech-btn {
+    background-color: transparent;
+    border: 2px solid #D6277B;
+    color: #CDCDCD
+}
+
+#tech-btn:hover {
+    background-color: #D6277B;
+    color: #242434;
+}
+
+img.tech-icon {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
 #job-title {
     font-size: 1.99rem;
 }

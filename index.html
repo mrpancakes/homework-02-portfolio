@@ -79,7 +79,7 @@
         <!-- About -->
         <section class="page container-fluid d-flex flex-column align-items-center" id="about">
             <h1 class="mb-4">About</h1>
-            <p>I'm from Dallas, TX, and have a Marketing degree from the University of Oklahoma. After college, I
+            <p class="mb-5">I'm from Dallas, TX, and have a Marketing degree from the University of Oklahoma. After college, I
                 worked
                 in digital marketing for 8 years where I became a Marketo Certified Expert. During this period, I
                 began
@@ -89,6 +89,58 @@
                 hone
                 in on the languages and areas I found most intriguing. <br><br>
                 In my spare time I enjoy leathercrafting, skateboarding, and playing roller hockey. </p>
+
+            <!-- Vertically centered modal -->
+            <button type="button" class="btn" id="tech-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Tech I enjoy using
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Tech I Enjoy</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body container-fluid">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="./images/bootstrap.png" alt="bootstrap" class="tech-icon">
+                                </div>
+                                <div class="col-3">
+                                    <img src="./images/git.png" alt="git" class="tech-icon">
+                                </div>
+                                <div class="col-3">
+                                    <img src="./images/js.png" alt="javascript" class="tech-icon">
+                                </div>
+                                <div class="col-3">
+                                    <img src="./images/mongodb.png" alt="mongodb" class="tech-icon">
+                                </div>
+                                <div class="col-3">
+                                    <img src="./images/mysql.png" alt="mysql" class="tech-icon">
+                                </div>
+                                <div class="col-3">
+                                    <img src="./images/react.png" alt="react" class="tech-icon">
+                                </div>
+                                <div class="col-3">
+                                    <img src="./images/express.png" alt="express" class="tech-icon">
+                                </div>
+                                <div class="col-3">
+                                    <img src="./images/node.png" alt="node" class="tech-icon">
+                                </div>
+                                <div class="col-3">
+                                    <img src="./images/sequelize.png" alt="sequelize" class="tech-icon">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div> -->
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Work -->
@@ -111,11 +163,12 @@
                     </div>
                 </div>
                 <div class="card m-3">
-                    <a href="https://blooming-gorge-05033.herokuapp.com/" target="_blank"><img src="./images/tech-blog.png"
-                            class="card-img-top" alt="Streamline"></a>
+                    <a href="https://blooming-gorge-05033.herokuapp.com/" target="_blank"><img
+                            src="./images/tech-blog.png" class="card-img-top" alt="Streamline"></a>
                     <div class="card-body">
                         <h5 class="card-title">Tech Blog</h5>
-                        <p class="card-text">A tech blog where you can sign up, create and edit posts, and comment on other users' posts.</p>
+                        <p class="card-text">A tech blog where you can sign up, create and edit posts, and comment on
+                            other users' posts.</p>
                         <a href="https://blooming-gorge-05033.herokuapp.com/" class="btn" target="_blank">Live
                             Page</a>
                         <a href="https://github.com/mrpancakes/tech-blog" class="btn" target="_blank">GitHub
@@ -123,11 +176,12 @@
                     </div>
                 </div>
                 <div class="card m-3">
-                    <a href="https://github.com/mrpancakes/employee-tracker" target="_blank"><img src="./images/employee-tracker.png"
-                            class="card-img-top" alt="Streamline"></a>
+                    <a href="https://github.com/mrpancakes/employee-tracker" target="_blank"><img
+                            src="./images/employee-tracker.png" class="card-img-top" alt="Streamline"></a>
                     <div class="card-body">
                         <h5 class="card-title">Employee Tracker</h5>
-                        <p class="card-text">A MySQL command-line CMS for adding/updating employees, departments, roles, and salaries.</p>
+                        <p class="card-text">A MySQL command-line CMS for adding/updating employees, departments, roles,
+                            and salaries.</p>
                         <a href="https://github.com/mrpancakes/employee-tracker" class="btn" target="_blank">GitHub
                             Repo</a>
                     </div>
