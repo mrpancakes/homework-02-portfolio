@@ -6,10 +6,14 @@ let scrollSpy = new bootstrap.ScrollSpy(document.body, {
 
 $(document).ready(function () {
 
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+});
+
   const currentYear = moment().format("YYYY");
 
   $("#year").text(currentYear);
-
 
   function typewriter() {
     setTimeout(function () {
@@ -17,7 +21,7 @@ $(document).ready(function () {
       $("#name").attr("class", "");
       $("#job-title").attr("class", "typewriter");
 
-      setTimeout(function(){
+      setTimeout(function () {
         $("#job-title").attr("class", "text-center five-px-padding");
       }, 5500)
 

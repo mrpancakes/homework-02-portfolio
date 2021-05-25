@@ -59,7 +59,8 @@ footer {
 #tech-btn {
     background-color: transparent;
     border: 2px solid #D6277B;
-    color: #CDCDCD
+    color: #CDCDCD;
+    font-size: 1.3rem;
 }
 
 #tech-btn:hover {
