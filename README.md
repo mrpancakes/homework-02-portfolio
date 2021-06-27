@@ -4,7 +4,7 @@
 
 ## Description
 
-The purpose of this website is to house an online personal portfolio. It contains About, Work, and Contact sections which highlight who I am and what types of applications I've created.
+The purpose of this website is to house an online personal portfolio. It contains About, Work, and Contact sections which highlight who I am and what types of applications I've created. TEst
 
 Below is an overview of my work on this application:
 
