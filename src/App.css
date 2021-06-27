@@ -3,9 +3,7 @@ body {
   background-color: #242434;
   color: #CDCDCD;
   font-family: 'Montserrat', sans-serif;
-  position: relative;
-  background-image: url(../images/pattern.png);
-  
+  position: relative; 
 }
 
 main {
@@ -88,14 +86,14 @@ img.tech-icon {
   border-radius: 50%;
   background-color: #3dbfcb;
   flex-basis: 200px;
-  background-image: url(../images/profile-pic.png);
+  background-image: url(./images/profile-pic.png);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 
 .about-photo:hover {
-  background-image: url(../images/sunglasses.png);
-  cursor: url(../images/rock-on.cur), auto;
+  background-image: url(./images/sunglasses.png);
+  cursor: url(./images/rock-on.cur), auto;
 }
 
 /* Homepage arrow bouncing effect */
