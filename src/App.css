@@ -1,0 +1,296 @@
+body {
+  margin: auto;
+  background-color: #242434;
+  color: #CDCDCD;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  background-image: url(../images/pattern.png);
+  
+}
+
+main {
+  width: 70%;
+  margin: 40px auto;
+  font-size: 1.7rem;
+}
+
+h1 {
+  color: #D6277B;
+  opacity: 0.85;
+  font-size: 4rem;
+  font-family: 'Source Serif Pro', serif;
+}
+
+nav {
+background-color: #252535;
+position: sticky;
+top: 0;
+width: 100%;
+height: 90px;
+
+}
+
+footer {
+  margin-top: 150px;
+  background-color: rgb(199, 75, 135);
+  color: #242434;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 20px 20px 40px 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #D6277B;
+  opacity: 0.85;
+}
+
+.home {
+  height: 90vh;
+  margin-top: -100px;
+  position: relative;
+  max-width: 1000px;
+}
+
+#tech-btn {
+  background-color: transparent;
+  border: 2px solid #D6277B;
+  color: #CDCDCD;
+  font-size: 1.3rem;
+}
+
+#tech-btn:hover {
+  background-color: #D6277B;
+  color: #242434;
+}
+
+img.tech-icon {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+#job-title {
+  font-size: 1.99rem;
+}
+
+.page {
+  margin-top: 150px;
+}
+
+.about-photo {
+  min-width: 200px;
+  max-width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #3dbfcb;
+  flex-basis: 200px;
+  background-image: url(../images/profile-pic.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+.about-photo:hover {
+  background-image: url(../images/sunglasses.png);
+  cursor: url(../images/rock-on.cur), auto;
+}
+
+/* Homepage arrow bouncing effect */
+.bounce {
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-8px);
+  }
+}
+
+.arrow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100px;
+  height: 43px;
+  display: inline-block;
+}
+
+.card {
+  background-color: rgb(91, 91, 91);
+  max-width: 25rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+}
+
+.btn {
+  background-color: rgb(223, 223, 223);
+}
+
+.btn:hover {
+  background-color: rgb(184, 184, 184);
+}
+
+.btn:active {
+  background-color: rgb(127, 198, 196);
+}
+
+.icon {
+  width: 115px;
+  margin: 10px;
+}
+
+.icon:hover {
+  -ms-transform: rotate(10deg); /* IE 9 */
+  transform: rotate(10deg);
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /*The typwriter cursor*/
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+
+  animation: 
+  typing 2.8s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+
+.hide {
+  display: none;
+}
+
+.margin-bottom {
+  margin-bottom: 55px;
+}
+
+.five-px-padding {
+  padding-right: 5px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 75% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+/* Tablets & large smart phones */
+@media screen and (max-width: 768px) {
+      
+  .navbar-nav {
+      background-color: #363648;
+      margin-top: 5px;
+  }
+
+  .nav-item {
+      margin: 10px;
+  }
+
+  .center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  h1 {
+      font-size: 4rem;
+  }
+
+  #job-title {
+      font-size: 1.7rem;
+  }
+
+  .about-photo {
+      margin-top: 30px;
+  }
+
+  .page {
+      margin-top: 50px;
+  }
+
+  #about {
+      margin-top: 100px;
+  }
+
+  .margin-bottom {
+      margin-bottom: 48px;
+  }
+
+  @keyframes typing {
+      from { width: 0 }
+      to { width: 70% }
+    }
+  
+}
+
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+  
+  main {
+      width: 90%;
+  }
+
+  h1 {
+      font-size: 2.2rem;
+      padding-bottom: -200px;
+  }
+
+  footer {
+      font-size: 0.8rem;
+  }
+
+  #job-title {
+      font-size: 1.4rem;
+  }
+
+  #about {
+      font-size: 1rem;
+  }
+
+  .card {
+      background-color: rgb(91, 91, 91);
+      width: 90%;
+  }
+
+  #contact p {
+      font-size: 1.2rem;
+  }
+
+  .icon {
+      max-width: 100px;
+      margin: 5px;
+  }
+
+  .margin-bottom {
+      margin-bottom: 40px;
+  }
+
+  @keyframes typing {
+      from { width: 0 }
+      to { width: 70% }
+    }
+
+}
