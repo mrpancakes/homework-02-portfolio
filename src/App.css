@@ -3,7 +3,8 @@ body {
   background-color: #242434;
   color: #CDCDCD;
   font-family: 'Montserrat', sans-serif;
-  position: relative; 
+  position: relative;
+  background-image: url(./images/pattern.png);
 }
 
 main {
