@@ -1,5 +1,8 @@
 import undercoverImg from '../images/undercover.png'
 import blogImg from '../images/tech-blog.png'
+import emplTrackerImg from '../images/employee-tracker.png'
+import weatherImg from '../images/weather.png'
+import codeQuizImg from '../images/quiz.png'
 
 const projects = [
     {
@@ -20,10 +23,26 @@ const projects = [
     },
     {
         "id": 3,
-        "name": "Tech Blog",
-        "details": "A tech blog where you can sign up, create and edit posts, and comment on other users' posts.",
-        "github": "https://github.com/mrpancakes/tech-blog",
-        "image": blogImg
+        "name": "Employee Tracker",
+        "details": "A MySQL command-line CMS for adding/updating employees, departments, roles, and salaries.",
+        "github": "https://github.com/mrpancakes/employee-tracker",
+        "image": emplTrackerImg
+    },
+    {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "details": "A MySQL command-line CMS for adding/updating employees, departments, roles, and salaries.",
+        "liveLink": "https://mrpancakes.github.io/weather-dashboard/",
+        "github": "https://github.com/mrpancakes/weather-dashboard",
+        "image": weatherImg
+    },
+    {
+        "id": 5,
+        "name": "Code Quiz",
+        "details": "Put your coding knowledge to the test with this five-question quiz. Try to beat your high score!",
+        "liveLink": "https://mrpancakes.github.io/code-quiz/",
+        "github": "https://github.com/mrpancakes/code-quiz",
+        "image": codeQuizImg
     },
 ]
 

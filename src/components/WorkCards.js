@@ -7,7 +7,7 @@ const WorkCards = () => {
         <>
             {projects.map(project => (
                 <div className="card m-3" key={project.id}>
-                    <a href={project.liveLink} target="_blank" rel="noreferrer"><img src={project.image}
+                    <a href={project.liveLink ? project.liveLink : project.github} target="_blank" rel="noreferrer"><img src={project.image}
                         className="card-img-top" alt={project.name} /></a>
                     <div className="card-body">
                         <h5 className="card-title">{project.name}</h5>
