@@ -1,6 +1,8 @@
 import React from 'react'
 
-const AboutModal = ({tech}) => {
+import tech from '../data/tech'
+
+const AboutModal = () => {
     return (
         <div className="modal-body container-fluid">
             <div className="row">

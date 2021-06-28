@@ -2,24 +2,24 @@ import React from 'react'
 
 const Nav = () => {
     return (
-            <nav class="p-2 navbar navbar-expand-lg navbar-dark header-bg sticky-top" id="main-nav">
-                <button class="navbar-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
-                    <span class="navbar-toggler-icon"></span>
+            <nav className="p-2 navbar navbar-expand-lg navbar-dark header-bg sticky-top" id="main-nav">
+                <button className="navbar-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse justify-content-end m-auto" id="navMenu">
-                    <ul class="navbar-nav d-flex align-items-center justify-content-center">
-                        <li class="nav-item">
-                            <a href="#home" class="nav-link">Home</a>
+                <div className="collapse navbar-collapse justify-content-end m-auto" id="navMenu">
+                    <ul className="navbar-nav d-flex align-items-center justify-content-center">
+                        <li className="nav-item">
+                            <a href="#home" className="nav-link">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link">About</a>
+                        <li className="nav-item">
+                            <a href="#about" className="nav-link">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#work" class="nav-link">Work</a>
+                        <li className="nav-item">
+                            <a href="#work" className="nav-link">Work</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact</a>
+                        <li className="nav-item">
+                            <a href="#contact" className="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>

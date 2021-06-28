@@ -137,6 +137,10 @@ img.tech-icon {
   font-size: 1.1rem;
 }
 
+.live-page-btn {
+  margin-right: 8px;
+}
+
 .btn {
   background-color: rgb(223, 223, 223);
 }
