@@ -2,6 +2,7 @@ import emailIcon from '../images/email.png'
 import githubIcon from '../images/github.png'
 import linkedinIcon from '../images/linkedin-icon.png'
 import resumeIcon from '../images/resume-icon.png'
+import resumeFile from '../images/resume-scott-strittmatter.pdf'
 
 const Contact = () => {
     return (
@@ -15,7 +16,7 @@ const Contact = () => {
                     alt="Github"/></a>
             <a href="https://www.linkedin.com/in/scottstrittmatter/" target="_blank" rel="noreferrer"><img className="icon"
                     src={linkedinIcon} alt="LinkedIn"/></a>
-            <a href="./images/resume-scott-strittmatter.pdf" target="_blank" rel="noreferrer"><img className="icon"
+            <a href={resumeFile} target="_blank" rel="noreferrer"><img className="icon"
                     src={resumeIcon} alt="Resume"/></a>
         </div>
     </section>
