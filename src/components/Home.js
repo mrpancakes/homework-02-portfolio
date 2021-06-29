@@ -8,18 +8,25 @@ const Home = () => {
 
     const [typewriter, setTypewriter] = useState(false)
 
+    const [nameMargin, setNameMargin] = useState(false)
+
     useEffect(() => {
         setTimeout(() => {
-            setTypewriter(true)
+            setTypewriter(true);
+            setNameMargin(true);
+
+            // Need to determine how to nest another setTimeout to change the job title className to "text-center five-px-padding" after 5500 milliseconds
+
          }, 1000)
     }, []);
+
+
 
     return (
         <section className="home container-fluid d-flex flex-column justify-content-center" id="home">
             <div className="row d-flex justify-content-center align-items-center">
                 <div className="col-12 col-lg-7 center intro d-flex flex-column align-items-center justify-content-center">
-                    <h1 className="margin-bottom" >Hey, I'm Scott!</h1>
-                    {/* <div className="text-left hide typewriter" id="job-title">Full-Stack Web Developer</div> */}
+                    <h1 className={nameMargin ? " " : "margin-bottom"} >Hey, I'm Scott!</h1>
                     <div className={typewriter ? "text-left typewriter" : "text-center hide"}>Full-Stack Web Developer</div>
                 </div>
                 <div className="col-12 col-lg-2 d-flex justify-content-center align-items-center">
